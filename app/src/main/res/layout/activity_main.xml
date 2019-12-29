@@ -16,11 +16,12 @@
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:orientation="vertical">
-            <ImageView
+            <Button
+                android:id="@+id/btn_setting"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/ic_settings_black_24dp"/>
+                android:background="@drawable/ic_settings_applications_black_24dp"/>
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_marginTop="35dp"
